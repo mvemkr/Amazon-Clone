@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce",
+  "description": "This is an ecommerce amazon clone",
+  "main": "server.js",
+  "authors": [
+    "Lopapa"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

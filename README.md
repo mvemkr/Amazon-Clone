@@ -12,6 +12,7 @@ Amazon Clone
 ## Initial Setup
 - Grab the source
 - Run `npm install` to get all the dependencies
+- Run 'bower install' to get client dependencies (I have referenced local versions and planned on doing gulp to build)
 - Use brew install elasticsearch on mac or choco install elasticsearch on windows
 - Setup database and populate the fields in secret.js
 - Create facebook app in developers.facebook.com and add secret and id to secret.js

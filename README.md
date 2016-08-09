@@ -8,6 +8,7 @@ Amazon Clone
     - or grab the installer from [the node.js website](http://nodejs.org/)
 - [NPM](https://www.npmjs.org/) - this comes with Node.js
 - [nodemon](http://nodemon.io) - automatically reload node server, however not necessary.
+- Also going to need to get a stripe account to grab your api key and publisher key.
 
 ## Initial Setup
 - Grab the source
@@ -17,3 +18,4 @@ Amazon Clone
 - Setup database and populate the fields in secret.js
 - Create facebook app in developers.facebook.com and add secret and id to secret.js
 - Use admin routes to add categories.  You can use the api to populate the categories by sending the name of the category you want to populate.
+- Input stripe publisher key in custom.js and add the key to mainjs where stripe is imported.

@@ -3,7 +3,7 @@ var Product = require('../models/product');
 var Category = require('../models/category');
 var Cart = require('../models/cart');
 var User = require('../models/user');
-var stripe = require('stripe')('sk_test_D5gKoVIMjls6ZUwhJPx4AalL');
+var stripe = require('stripe')('test_key');
 var mainViews = 'main/';
 
 var async = require('async');
